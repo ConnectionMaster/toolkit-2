@@ -1,0 +1,40 @@
+{
+  "name": "@devbotsxyz/inputs",
+  "version": "0.0.1",
+  "description": "DevBots Action Input Utilities",
+  "keywords": [
+    "github",
+    "actions",
+    "devbotsxyz"
+  ],
+  "author": "Stefan Arentz <stefan@devbots.xyz>",
+  "homepage": "https://github.com/devbotsxyz/toolkit/tree/main/packages/inputs",
+  "license": "MIT",
+  "main": "lib/inputs.js",
+  "types": "lib/inputs.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "!.DS_Store"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbotsxyz/toolkit.git",
+    "directory": "packages/inputs"
+  },
+  "scripts": {
+    "audit-moderate": "npm install && npm audit --json --audit-level=moderate > audit.json",
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "tsc": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/devbotsxyz/toolkit/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.2",
+    "typescript": "^4.0.3"
+  }
+}
